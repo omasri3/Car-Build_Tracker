@@ -1,0 +1,39 @@
+#footer {
+    font-size: 14px;
+    background-color: gray;
+    height: 5vh;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+#header-row{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-inline-end: 40px;
+}
+
+#header {
+    background-color: blue;
+}
+
+#main-picture {
+    height: 70vh;
+    width: 50vw;
+}
+
+#body {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-text {
+    padding-left: 20px;
+}
